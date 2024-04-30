@@ -15,14 +15,11 @@ header {
 }
 
 
-.gaio{
+.gaio {
     border: 2px solid rgb(84, 63, 134);
     display: block;
     background-color: #7ea5ee;
-font-size: 20
-
-
-
+    font-size: 20
 }
 
 
@@ -58,38 +55,186 @@ footer {
     padding: 10px 0;
 }
 
-.especie{
-font-size: large;
+.especie {
+    font-size: large;
 
 
 }
 
 h1 {
+    font-size: 30;
+    text-decoration: underline;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+h3 {
+    font-size: 60;
+
+
+}
+
+h2 {
+    text-align: center;
+
+
+}
+
+.azul {
+    text-align: center;
+
+}
+
+.habitat {
+    text-align: center;
+
+
+}
+
+.formulário {
+    text-align: center;
+    border: 2px solid rgb(84, 63, 134);
+    display: block;
+    background-color: #191970;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    margin: 20px;
+
+}
+
+
+label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #000000;
+    border-radius: 3px;
+    background-color: #fafafa;
+    color: rgb(0, 0, 0);
+    font-size: 20;
+
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0cdd8d;
+}
+
+
+.carousel {
+    display: block;
+    position: relative;
+}
+
+.carousel input[type="radio"] {
+    display: none;
+}
+
+.carousel__items {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel__item {
+    flex: 0 0 100%;
+    scroll-snap-align: start;
+}
+
+.carousel__prev,
+.carousel__next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 2em;
+    height: 2em;
+}
+
+.carousel__prev {
+    left: 0.5em;
+}
+
+.carousel__next {
+    right: 0.5em;
+}
+
+.carousel__prev label,
+.carousel__next label {
+    background-color: #080808;
+    display: block;
+    opacity: 0.5;
+    transition: opacity 0.15s;
+}
+
+.carousel__prev:hover label,
+.carousel__next:hover label {
+    opacity: 1;
+}
+
+.carousel__nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+.carousel__indicator {
+    cursor: pointer;
+    border-radius: 50%;
+    border: 1px solid #b10000;
+    width: 1em;
+    height: 1em;
+    margin: 0 0.5em;
+}
+
+.carousel__indicator:hover {
+    background-color: #db0808;
+}
+
+.corvosss,
+.corvoss,
+.gaiomenor,
+.azull
+ {
+
+    width: 100%;
+    height: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+
+ }
+
+ .extras{
+text-align: center;
 font-size: 30;
-text-decoration: underline;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
-}
-
-h3{
-font-size: 60;
-
-
-}
-
-h2{
-text-align: center;
-
-
-}
-
-.azul{
-text-align: center;
-
-}
-.habitat{
-text-align: center;
-
-
-}
-
+border: 5px solid rgb(0, 0, 0);
+display: block;
+background-color: #191970;
+color: white;
+margin: 20px;
+ }
